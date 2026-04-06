@@ -43,7 +43,7 @@ based on viral observation that grug-speak dramatically reduce LLM token usage w
 
 ### 🪨 Grug Claude (19 tokens)
 
-> "New object ref each render. Inline object prop = new ref = re-render. Wrap in `useMemo`."
+> "New object ref each new moon. Inline object prop = new ref = re-render. Wrap in `useMemo`."
 
 </td>
 </tr>
@@ -59,43 +59,13 @@ based on viral observation that grug-speak dramatically reduce LLM token usage w
 
 ### 🪨 Grug Claude
 
-> "Bug in auth middleware. Token expiry check use `<` not `<=`. Fix:"
+> "Spirit demon in auth middleware. Token expiry check use `<` not `<=`. Fix"
 
 </td>
 </tr>
 </table>
 
 **Same fix. 75% less word. grug smash complexity demon filler with club.**
-
-**sometimes too much grug. sometimes not enough:**
-
-<table>
-<tr>
-<td width="33%">
-
-#### 🪶 Lite
-
-> "Your component re-renders because you create a new object reference each render. Inline object props fail shallow comparison every time. Wrap it in `useMemo`."
-
-</td>
-<td width="33%">
-
-#### 🪨 Full
-
-> "New object ref each render. Inline object prop = new ref = re-render. Wrap in `useMemo`."
-
-</td>
-<td width="33%">
-
-#### 🔥 Ultra
-
-> "Inline obj prop → new ref → re-render. `useMemo`."
-
-</td>
-</tr>
-</table>
-
-**Same answer. You pick how many grunt.**
 
 ## Benchmarks
 
