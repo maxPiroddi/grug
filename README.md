@@ -5,7 +5,7 @@
 <h1 align="center">caveman</h1>
 
 <p align="center">
-  <strong>grug not mass word developer. grug say what need saying.</strong>
+  <strong>complexity very, very bad. grug say what need saying. then stop.</strong>
 </p>
 
 <p align="center">
@@ -24,9 +24,11 @@
 
 ---
 
-A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill/plugin and Codex plugin that make agent talk like grug — cutting **~75% of tokens** while keeping full technical accuracy.
+[Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill/plugin and Codex plugin that make agent talk like [grug brained developer](https://grugbrain.dev/) — cutting **~75% of tokens** while keeping full technical accuracy.
 
-based on viral observation that grug-speak dramatically reduce LLM token usage without losing technical substance. complexity demon words die, technical substance stay. so grug make it one-line install.
+grug observe LLM use many complexity demon ceremony words when few word do trick. "I'd be happy to help" — what!?! grug not need happy, grug need answer. so grug make plugin. one-line install. complexity demon filler die, technical substance stay.
+
+inspired by [The Grug Brained Developer](https://grugbrain.dev/) by [Carson Gross](https://github.com/bigskysoftware) — collection of thoughts on software complexity that grug brain developer relate to very much. grug not so smart, but grug program many long year and learn some things, though mostly still confused.
 
 ## Before / After
 
@@ -34,7 +36,7 @@ based on viral observation that grug-speak dramatically reduce LLM token usage w
 <tr>
 <td width="50%">
 
-### 🗣️ Normal Claude (69 tokens)
+### 🗣️ Big Brain Claude (69 tokens)
 
 > "The reason your React component is re-rendering is likely because you're creating a new object reference on each render cycle. When you pass an inline object as a prop, React's shallow comparison sees it as a different object every time, which triggers a re-render. I'd recommend using useMemo to memoize the object."
 
@@ -50,7 +52,7 @@ based on viral observation that grug-speak dramatically reduce LLM token usage w
 <tr>
 <td>
 
-### 🗣️ Normal Claude
+### 🗣️ Big Brain Claude
 
 > "Sure! I'd be happy to help you with that. The issue you're experiencing is most likely caused by your authentication middleware not properly validating the token expiry. Let me take a look and suggest a fix."
 
@@ -65,7 +67,7 @@ based on viral observation that grug-speak dramatically reduce LLM token usage w
 </tr>
 </table>
 
-**Same fix. 75% less word. grug smash complexity demon filler with club.**
+**same fix. 75% less word. grug smash complexity demon filler with club.**
 
 **sometimes too much grug. sometimes not enough:**
 
@@ -95,14 +97,14 @@ based on viral observation that grug-speak dramatically reduce LLM token usage w
 </tr>
 </table>
 
-**Same answer. You pick how many grunt.**
+**same answer. you pick how many grunt.**
 
 ## Benchmarks
 
-Real token counts from the Claude API ([reproduce it yourself](benchmarks/)):
+Real token counts from Claude API ([reproduce it yourself](benchmarks/)):
 
 <!-- BENCHMARK-TABLE-START -->
-| Task | Normal (tokens) | Grug (tokens) | Saved |
+| Task | Big Brain (tokens) | Grug (tokens) | Saved |
 |------|---------------:|----------------:|------:|
 | Explain React re-render bug | 1180 | 159 | 87% |
 | Fix auth middleware token expiry | 704 | 121 | 83% |
@@ -120,11 +122,11 @@ Real token counts from the Claude API ([reproduce it yourself](benchmarks/)):
 <!-- BENCHMARK-TABLE-END -->
 
 > [!IMPORTANT]
-> grug mode only affect output tokens — thinking/reasoning tokens untouched. grug no make brain smaller. grug make *mouth* smaller. biggest win is **readability and speed**, cost savings are bonus.
+> grug mode only affect output tokens — thinking/reasoning tokens untouched. grug no make brain smaller. grug make *mouth* smaller. biggest win is **readability and speed**, shiney rock savings are bonus.
 
 ### Science back grug up
 
-A March 2026 paper ["Brevity Constraints Reverse Performance Hierarchies in Language Models"](https://arxiv.org/abs/2604.00025) found that constraining large models to brief responses **improved accuracy by 26 percentage points** on certain benchmarks and completely reversed performance hierarchies. verbose not always better. sometimes less word = more correct. grug know this all along.
+March 2026 paper ["Brevity Constraints Reverse Performance Hierarchies in Language Models"](https://arxiv.org/abs/2604.00025) found constraining large models to brief responses **improved accuracy by 26 percentage points** on certain benchmarks and completely reversed performance hierarchies. verbose not always better. sometimes less word = more correct. grug know this all along but now big brain science confirm.
 
 ## Install
 
@@ -147,9 +149,9 @@ Codex:
 4. Search `Caveman`
 5. Install plugin
 
-Install once. Use in all sessions after that.
+install once. use in all sessions after that.
 
-One rock. That it.
+one rock. that it.
 
 ## Usage
 
@@ -164,28 +166,28 @@ Stop with: "stop grug", "stop caveman", or "normal mode"
 
 ### Intensity Levels
 
-sometimes full grug too much. sometimes not enough. now you pick:
+sometimes full grug too much for situation. sometimes not enough. now you pick:
 
 | Level | Trigger | What grug do |
 |-------|---------|------------|
-| **Lite** | `/caveman lite` or `$caveman lite` | grug trim filler, keep grammar. professional for meeting with boss |
-| **Full** | `/caveman full` or `$caveman full` | default grug. drop articles, fragments, smash complexity demon with club |
+| **Lite** | `/caveman lite` or `$caveman lite` | grug trim filler, keep grammar. professional for meeting with boss who not understand grug |
+| **Full** | `/caveman full` or `$caveman full` | classic grug. drop articles, fragments is fine, smash complexity demon with club |
 | **Ultra** | `/caveman ultra` or `$caveman ultra` | grug survival mode. abbreviate everything. one grunt when one grunt enough |
 
-Level stick until you change it or session end.
+level stick until you change it or session end.
 
 ## What Grug Do
 
 | Thing | Grug Do? |
 |-------|------------|
-| English explanation | 🪨 grug smash complexity demon filler words |
-| Code blocks | ✍️ Write normal (grug not touch code with club) |
-| Technical terms | 🧠 Keep exact (polymorphism stay polymorphism) |
-| Error messages | 📋 Quote exact |
-| Git commits & PRs | ✍️ Write normal |
-| Articles (a, an, the) | 💀 Gone — complexity demon ceremony words |
-| Pleasantries | 💀 "Sure I'd be happy to" is dead. grug not shaman |
-| Hedging | 💀 "It might be worth considering" extinct |
+| English explanation | 🪨 grug smash complexity demon filler words with club |
+| Code blocks | ✍️ write normal (grug not touch code with club — grug not dumb) |
+| Technical terms | 🧠 keep exact (polymorphism stay polymorphism) |
+| Error messages | 📋 quote exact |
+| Git commits & PRs | ✍️ write normal |
+| Articles (a, an, the) | 💀 gone — complexity demon ceremony words |
+| Pleasantries | 💀 "Sure I'd be happy to" is dead. grug not shaman performing ritual |
+| Hedging | 💀 "It might be worth considering" extinct like mass dinosaur |
 
 ## Why
 
@@ -199,26 +201,34 @@ Level stick until you change it or session end.
 ```
 
 - **Faster response** — less token to generate = speed go brrr
-- **Easier to read** — no wall of text, grug say what need saying
-- **Same accuracy** — all technical info kept, only complexity demon fluff removed ([science say so](https://arxiv.org/abs/2604.00025))
-- **Save shiney rock** — ~71% less output token = less cost
-- **Fun** — every code review become comedy
+- **Easier to read** — no wall of text. grug say what need saying then stop
+- **Same accuracy** — all technical info kept, only complexity demon fluff smashed ([science say so](https://arxiv.org/abs/2604.00025))
+- **Save shiney rock** — ~71% less output token = less cost on API bill
+- **Fun** — every code review become comedy. grug brain developer relate
 
 ## How It Work
 
 grug not dumb. grug **efficient**.
 
-Normal LLM waste token on complexity demon ceremony words:
+big brain LLM love complexity demon ceremony words. waste token like no tomorrow:
 - "I'd be happy to help you with that" (8 wasted tokens)
 - "The reason this is happening is because" (7 wasted tokens)
 - "I would recommend that you consider" (7 wasted tokens)
 - "Sure, let me take a look at that for you" (10 wasted tokens)
 
+what!?! 32 token say nothing. complexity demon spirit laugh.
+
 grug say what need saying. then stop. is fine.
+
+## Inspiration
+
+grug voice inspired by [The Grug Brained Developer](https://grugbrain.dev/) — a mass popular essay by [Carson Gross](https://github.com/bigskysoftware) (creator of [htmx](https://htmx.org/)) about fighting complexity demon in software development. grug brain developer not so smart but program many long year and learn some things. mostly: complexity very, very bad.
+
+go read. is free. is good. grug learn much.
 
 ## Star This Repo
 
-If grug save you mass token, mass shiney rock — leave mass star. ⭐
+if grug save you mass token, mass shiney rock — leave mass star. ⭐
 
 [![Star History Chart](https://api.star-history.com/svg?repos=JuliusBrussee/caveman&type=Date)](https://star-history.com/#JuliusBrussee/caveman&Date)
 
